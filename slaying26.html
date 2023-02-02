@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box shadow and text shadowdiv </title>
+    <style>
+.container{
+    display: flex;
+}
+.card{
+
+    padding: 23px 12px;
+    border: 2px solid rgb(205, 56, 56);
+    margin: 23px 12px;
+    background-color: blueviolet;
+    /* box-shadow: offset -x offset-y color; */
+     /* box-shadow: offset -x offset-y blur radius color; */
+      /* box-shadow: offset -x offset-y blur radius spread-radiuscolor; */
+    box-shadow: 4px 8px green;
+    box-shadow: -4px -8px green;
+    box-shadow: 4px 8px 114px green;
+    box-shadow: 4px 8px114px 34px rgba(245, 132, 166, 0.3);
+    box-shadow: inset 3px 5px green;
+     box-shadow: 3px 5px green 4px 6px red ;
+}
+.card h2
+{
+    text-shadow: 3px 4px 2px brown;
+    text-shadow: -3px -4px -2px brown;
+    
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card" id="card-1">
+          <h2>Hello I am a Slayer</h2>  
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur alias in itaque! Ipsa, voluptate expedita? Incidunt minima sapiente distinctio ullam non ab architecto. Est facilis repellendus fuga, laboriosam reprehenderit sed quis sunt magnam sint!</p>
+        </div>
+        <div class="card" id="card-2">
+           <h2>Hello I am a Slayer too</h2>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur eos laborum perferendis dolore corrupti odio, sunt minus ipsum natus, labore magni saepe cum autem! Alias, fugit molestiae sunt tempora voluptas iste pariatur odio sed?</p>
+        </div>
+        <div class="card" id="card-3">
+           <h2> Card3</h2>
+           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat ad nam corporis nostrum officiis provident, minus vero architecto excepturi reprehenderit nihil, sequi rem soluta repudiandae doloremque quam aliquam exercitationem magni labore expedita. Architecto, placeat!</p>
+        </div>
+
+
+
+
+    </div>
+    
+</body>
+</html>
