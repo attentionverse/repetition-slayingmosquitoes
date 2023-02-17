@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating a layout using Grid</title>
+    <style>
+ .container{
+    display: grid;
+    grid-gap:1rem;
+    grid-template-areas: 
+    'navbar navbar navbar navbar'
+    'section section section aside'
+    'footer footer footer footer';
+
+
+ }
+ .item{
+    background-color: aqua;
+    border: 3px solid red;
+    padding: 22px;
+ }
+ #navbar{
+ grid-area: navbar;
+
+ }
+ #section{
+    grid-area: section;
+
+ }
+ #box{
+grid-area: box;
+ }
+ #footer
+ {
+    grid-area: footer;
+ }
+
+
+    </style>
+</head>
+<body> 
+    <div class="container">
+<div id="navbar" class="item">HELLO ABOUR US  E MAIL GO TO </div>
+<div id="section" class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut consequatur iste ab commodi quam dolores labore consectetur veniam, iusto sunt. Quo suscipit reprehenderit dignissimos eaque, quas inventore accusamus voluptatibus amet rem aliquid odio corporis ratione perspiciatis laudantium at placeat optio eligendi quasi natus fugit explicabo. Accusamus assumenda repellendus eos eum tenetur atque deserunt blanditiis minima, ratione doloribus, rem illo doloremque. Eveniet aut eum sequi consequuntur, ducimus facere repellendus ab molestiae explicabo corporis ad repudiandae voluptates, atque aliquam error alias sint, iste perspiciatis distinctio excepturi a. Laboriosam illo obcaecati adipisci amet laborum in ipsam iusto labore quae? Sapiente, aliquam veritatis, facilis sed vitae rerum rem eos dolor culpa, qui aut incidunt. Pariatur cupiditate, quia nulla modi ad, corporis optio, quasi maxime eaque aliquam dolorum iusto eveniet quas! Tempore porro deleniti repellat adipisci tenetur dolor maxime nihil? Molestias quos, porro a rem labore cupiditate impedit quis placeat voluptatum earum iste quaerat officia optio beatae officiis quod accusamus. Ea corporis dicta, quasi veritatis debitis facere odit a voluptate dolorem dolores cum hic aspernatur recusandae eaque odio omnis sunt nisi itaque architecto obcaecati velit blanditiis. Qui id porro cupiditate ex expedita voluptatum, excepturi officia facilis odit commodi consequuntur, ipsam optio ad aperiam, voluptatem iure. </div>
+<div id="box" class="item"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum sit beatae molestias quam doloremque enim quibusdam illo, nobis perspiciatis dicta quaerat, corrupti, incidunt sed cumque esse adipisci! Pariatur reprehenderit doloribus sequi, repellendus tenetur quam id neque, ut error voluptatibus nobis ducimus perspiciatis cumque alias aliquid et obcaecati delectus voluptatum explicabo.
+</div>
+
+
+    </div>
+    
+</body>
+</html>
