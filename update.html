@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events & Listening</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>This is my heading</h1>
+        <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, quas laudantium voluptatibus enim impedit tenetur pariatur architecto. Distinctio iusto cupiditate non quaerat quas cumque eaque rerum ipsam in officiis. In consequuntur doloribus ipsum ullam cupiditate.
+        </p>
+        <button id="btn" onclick="togglehide()">Show/hide</button>
+        <script>
+
+            function togglehide(){
+                let btn = document.getElementById('btn');
+                let para = document.getElementById('para');
+                if(para.style.display != 'none') {
+                    para.style.display = 'none';
+                                
+            }..
+            else{
+                para.style.display = 'block';
+            }
+        }
+        let para = document.getElementById('para');
+        para.addEventListener('mouseover', function run(){
+            alert('Mouse Inside')
+        });
+
+        let deletePo5st = confirm("Do you want to delete this post?");
+      
+       if (deletePost){
+        console.log("Your post has been deleted successfully");
+       }
+       else{
+        console.log("Your post has not been deleted");
+       }
+       
+        
+        </script>
+    </div>
+</body>
+</html>
